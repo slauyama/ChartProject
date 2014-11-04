@@ -1,0 +1,31 @@
+{
+    "name": "ChartProject",
+    "version": "1.0.0",
+    "description": "READNE\r -Charting is an application that will make charts for a dashboard.\r -It uses d3 and backbone/marionette as a framework for creating the graphics.\r -It uses bootstrap for styling and in particular will have a predesigned template.\r -It uses coffeescript, scss, and jade for languages and will be compiled by gulp.\r -It uses requirejs for module loading\r -It uses jasmine, chai, and sinon for testing\r -It uses bower for all external libraries and npm for all gulp modules.\r \t-Bower and Node JSON files will be updated when needed.",
+    "main": "gulpfile.js",
+    "dependencies": {
+        "gulp": "^3.8.6",
+        "gulp-coffee": "^2.1.1",
+        "gulp-coffeelint": "^0.3.3",
+        "gulp-concat": "^2.3.4",
+        "gulp-clean": "^0.3.1",
+        "gulp-jade": "^0.7.0",
+        "gulp-concat-css": "^0.1.4",
+        "gulp-jshint": "^1.8.0",
+        "gulp-minify-css": "^0.3.7",
+        "gulp-notify": "^1.4.0",
+        "gulp-plumber": "^0.6.4",
+        "gulp-rename": "^1.2.0",
+        "gulp-ruby-sass": "^0.7.1",
+        "gulp-uglify": "^0.3.1",
+        "gulp-util": "^3.0.0"
+    },
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "gulp test"
+    },
+    "author": "",
+    "license": "ISC"
+}
